@@ -15,3 +15,19 @@ Test.mat & TestWave.mat – the MATLAB format file converted from Test.fsm, resp
 Test.jpg – the visible micrograph of sample above with the same area as Test.fsm, obtained by charge-coupled device (CCD) camera of FTIR microspectroscopic imaging system (Spotlight 400, PerkinElmer Ltd., Beaconsfield, bucks, UK) 
 
 ReferenceSpectrumCUTout.mat & ReferenceSpectrumFull.mat – the converted MATLAB format files of infrared reference spectrum by KBr pellets method, spectral resolution 4 cm-1, 32 co-add scans for each pellet, spectral region of 1800-800 cm-1(cut out after scan) and 4000-750 cm-1 in transmission mode, obtained by FTIR spectrometer (Spectrum 400, PerkinElmer Ltd., Beaconsfield, bucks, UK), in order of cellulose, hemicellulose, lignin, pectin, and starch.
+
+
+
+% Copyright [Jiaqi MEI, China Agricultural University]
+
+  %   Licensed under the Apache License, Version 2.0 (the "License");
+  %   you may not use this file except in compliance with the License.
+  %   You may obtain a copy of the License at
+
+  %   http://www.apache.org/licenses/LICENSE-2.0
+
+  %   Unless required by applicable law or agreed to in writing, software
+  %   distributed under the License is distributed on an "AS IS" BASIS,
+  %   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  %   See the License for the specific language governing permissions and
+  %   limitations under the License.  
