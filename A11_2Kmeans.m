@@ -24,6 +24,24 @@ function varargout = A11_2Kmeans(varargin)
 
 % Last Modified by GUIDE v2.5 19-Jan-2018 12:42:33
 
+
+
+% Copyright [Jiaqi MEI, China Agricultural University]
+
+  %   Licensed under the Apache License, Version 2.0 (the "License");
+  %   you may not use this file except in compliance with the License.
+  %   You may obtain a copy of the License at
+
+  %   http://www.apache.org/licenses/LICENSE-2.0
+
+  %   Unless required by applicable law or agreed to in writing, software
+  %   distributed under the License is distributed on an "AS IS" BASIS,
+  %   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  %   See the License for the specific language governing permissions and
+  %   limitations under the License.  
+  
+  
+
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
 gui_State = struct('gui_Name',       mfilename, ...
@@ -401,7 +419,7 @@ PurgeAfter = A03_2Purge(handles.figure1);
 Epidermis = PurgeAfter;
 clear PurgeAfter PurgeBefore PurgeStr
 
-%%%����ԭͼȥ����
+%%%³ËÒÔÔ­Í¼È¥±³¾°
 Epidermis=Epidermis.*fDataAve;        %%%.*Forground, anticorrosion
 Epidermis(find(Epidermis~=0))=1;
 
